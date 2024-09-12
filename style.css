@@ -1,0 +1,70 @@
+body {
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color:rgba(30, 14, 58, 0.103);
+    border-radius: 10px;
+    width:100%;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"] 
+select{
+    width: 40%; 
+    padding: 15px;
+    font-size: 18px; 
+    border: 2px solid black; 
+    border-bottom: 2px solid rgb(12, 121, 108); 
+    border-radius: 5px; 
+    outline: none; 
+    
+}
+
+ input[type="reset"]{
+    background-color:blue;
+    color: white;
+    border:none;
+    font-size: 18px;
+    padding:15px 10px;
+    border-radius: 5px;
+    cursor:pointer;
+
+ }
+
+button{
+    background-color: rgb(38, 44, 43);
+    color:white;
+    padding:20px 20px;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+
+}
+
+button:hover{
+    background-color: rgb(20, 90, 80);
+}
